@@ -26,10 +26,10 @@ setInterval(() => {
       console.log(stdout);
     });
     
-    exec('git push origin master', (err, stdout, stderr) => {
+    exec('git push origin main', (err, stdout, stderr) => {
       if (err) { console.log(err); }
       console.log(stdout);
     });
     
     console.log('push success');
-     }, 50); 
+     }, 5000); 

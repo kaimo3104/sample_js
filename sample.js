@@ -32,4 +32,4 @@ setInterval(() => {
     });
     
     console.log('push success');
-     }, 5000); 
+     }, 50); 
